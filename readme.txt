@@ -1,4 +1,4 @@
-=== Genesis Translations ===
+=== Genesis Widget Column Classes ===
 Contributors: Jory Hogeveen
 Tags: genesis, bootstrap, column, widget
 Requires at least: 3.6

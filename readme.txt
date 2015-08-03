@@ -1,5 +1,5 @@
 === Genesis Widget Column Classes ===
-Contributors: Jory Hogeveen, keraweb
+Contributors: keraweb
 Tags: genesis, bootstrap, column, widget, dynamik
 Requires at least: 3.6
 Tested up to: 4.2.3

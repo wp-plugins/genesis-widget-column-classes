@@ -1,8 +1,8 @@
 === Genesis Widget Column Classes ===
-Contributors: Jory Hogeveen
-Tags: genesis, bootstrap, column, widget
+Contributors: Jory Hogeveen, keraweb
+Tags: genesis, bootstrap, column, widget, dynamik
 Requires at least: 3.6
-Tested up to: 4.2.2
+Tested up to: 4.2.3
 Stable tag: 4.3
 
 This plugin adds Bootstrap column classes to widgets, built mainly as an extention for the Genesis Framework

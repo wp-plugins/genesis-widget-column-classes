@@ -24,7 +24,7 @@ Or search for "Genesis Widget Column Classes" via your plugins menu.
 
 == Screenshots ==
 
-No screenshots (yet). Let me know if you need some.
+1. Widget admin view
 
 == Changelog ==
 

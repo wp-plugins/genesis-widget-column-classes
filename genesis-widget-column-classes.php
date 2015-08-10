@@ -5,7 +5,7 @@
  *
  * Plugin Name: Genesis Bootstrap Widget Column Classes
  * Version: 1.0
- * Description: Add genesis/bootstrap column classes to widgets
+ * Description: Add Genesis/Bootstrap column classes to widgets
  * Author: Jory Hogeveen
  * Author URI: http://www.keraweb.nl
  * License: GPLv2
@@ -48,7 +48,7 @@ function wcc_genesis_widget_form_extend( $instance, $widget ) {
 	);
 	
 	$row = '<p style="border-bottom: 1px solid #f5f5f5; padding-bottom: 5px;">';
-	$row .= '<label for="widget-'.$widget->id_base.'-'.$widget->number.'-column-classes">Genesis Column Width</label> ';
+	$row .= '<label for="widget-'.$widget->id_base.'-'.$widget->number.'-column-classes">Column Width</label> ';
 	$row .= '<select name="widget-'.$widget->id_base.'['.$widget->number.'][column-classes]" id="widget-'.$widget->id_base.'-'.$widget->number.'-column-classes">';
 	
 	foreach ($columnClasses as $className) {

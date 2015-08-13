@@ -3,9 +3,9 @@
  * @package Genesis
  * @author Jory Hogeveen
  *
- * Plugin Name: Genesis Bootstrap Widget Column Classes
+ * Plugin Name: Genesis Widget Column Classes
  * Version: 1.0
- * Description: Add Genesis/Bootstrap column classes to widgets
+ * Description: Add Genesis (old Bootstrap) column classes to widgets
  * Author: Jory Hogeveen
  * Author URI: http://www.keraweb.nl
  * License: GPLv2

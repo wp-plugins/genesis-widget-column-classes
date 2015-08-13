@@ -5,13 +5,13 @@ Requires at least: 3.6
 Tested up to: 4.3
 Stable tag: 4.3
 
-This plugin adds Bootstrap column classes to widgets, built mainly as an extention for the Genesis Framework
+Adds Genesis column classes to widgets.
 
 == Description ==
 
-As easy as it gets. Add Bootstrap column classes to widgets with a select box, check wether the widget is the first, and save!
+As easy as it gets. Add column classes to widgets with a select box, check wether the widget is the first, and save!
 
-I've built this plugin for the Genesis Framework, though it will work with any theme that uses the Bootstrap column classes.
+I've built this plugin for the Genesis Framework, though it will work with any theme that uses the (old) Bootstrap column classes.
 
 == Installation ==
 

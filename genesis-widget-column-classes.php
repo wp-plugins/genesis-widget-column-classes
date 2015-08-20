@@ -4,28 +4,32 @@
  * @author Jory Hogeveen
  *
  * Plugin Name: Genesis Widget Column Classes
- * Version: 1.0
+ * Version: 1.0.1
  * Description: Add Genesis (old Bootstrap) column classes to widgets
  * Author: Jory Hogeveen
  * Author URI: http://www.keraweb.nl
  * License: GPLv2
 */
 
-// Exit if accessed directly
 if ( ! defined( 'ABSPATH' ) ) {
-	exit;
+	die( 'You shall not pass!' );
 }
 
+/**
+ * Genesis nag
+ */
 function wcc_genesis_no_found() {
 	if (get_template() != 'genesis') {
 		$class = 'error';
-		$message = 'The <a href="http://my.studiopress.com/themes/genesis/" targer="_blank">Genesis framework</a> is required to ensure that Genesis Widget Column Classes will work properly';
+		$message = 'The <a href="http://my.studiopress.com/themes/genesis/" targer="_blank">Genesis framework</a> is recommended to ensure that Genesis Widget Column Classes will work properly';
         echo '<div class="'.$class.'"> <p>'.$message.'</p></div>'; 
 	}
 }
 add_action( 'admin_notices', 'wcc_genesis_no_found' ); 
 
-
+/**
+ * Add options to the widgets
+ */
 function wcc_genesis_widget_form_extend( $instance, $widget ) {
 	if ( !isset($instance['column-classes']) )
 		$instance['column-classes'] = null;
@@ -77,19 +81,23 @@ function wcc_genesis_widget_form_extend( $instance, $widget ) {
 }
 add_filter('widget_form_callback', 'wcc_genesis_widget_form_extend', 10, 2);
 
-
+/**
+ * Add the new fields to the update instance
+ */
 function wcc_genesis_widget_update( $instance, $new_instance ) {
 	if (isset($new_instance['column-classes'])) {
-		$instance['column-classes'] = $new_instance['column-classes'];
+		$instance['column-classes'] = strip_tags($new_instance['column-classes']);
 	} else {$instance['column-classes'] = '';}
 	if (isset($new_instance['column-classes-first'])) {
-		$instance['column-classes-first'] = $new_instance['column-classes-first'];
+		$instance['column-classes-first'] = '1';//esc_attr($new_instance['column-classes-first']);
 	} else {$instance['column-classes-first'] = '';}
 	return $instance;
 }
 add_filter('widget_update_callback', 'wcc_genesis_widget_update', 10, 2);
 
-
+/**
+ * Add classes to the widget
+ */
 function wcc_genesis_sidebar_params( $params ) {
 	global $wp_registered_widgets;
 	$widget_id	= $params[0]['widget_id'];

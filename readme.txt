@@ -28,6 +28,10 @@ Or search for "Genesis Widget Column Classes" via your plugins menu.
 
 == Changelog ==
 
+= 1.0.1 =
+
+Some small improvements
+
 = 1.0 =
 
 Created from nothingness just to be one of the cool kids. Yay!

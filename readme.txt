@@ -17,7 +17,7 @@ I've built this plugin for the Genesis Framework, though it will work with any t
 
 Installation of this plugin works like any other plugin out there. Either:
 
-1. Upload the zip file to the `/wp-content/plugins/` directory
+1. Upload the zip file to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 Or search for "Genesis Widget Column Classes" via your plugins menu.
@@ -28,13 +28,19 @@ Or search for "Genesis Widget Column Classes" via your plugins menu.
 
 == Changelog ==
 
+= 1.1 =
+
+*	Make plugin object oriented (OOP)
+*	Make "no genesis theme" nag dismissible
+*	Code, format and security improvements
+
 = 1.0.1 =
 
-Some small improvements
+*	Some small improvements
 
 = 1.0 =
 
-Created from nothingness just to be one of the cool kids. Yay!
+*	Created from nothingness just to be one of the cool kids. Yay!
 
 == Other Notes ==
 

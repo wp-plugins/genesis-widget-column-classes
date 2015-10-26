@@ -5,7 +5,7 @@
  *
  * Plugin Name:	Genesis Widget Column Classes
  * Description:	Add Genesis (old Bootstrap) column classes to widgets
- * Plugin URI:	http://www.keraweb.nl
+ * Plugin URI:	https://wordpress.org/plugins/genesis-widget-column-classes/
  * Version:		1.1
  * Author:		Jory Hogeveen
  * Author URI:	http://www.keraweb.nl

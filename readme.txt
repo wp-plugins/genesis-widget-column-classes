@@ -2,8 +2,8 @@
 Contributors: keraweb
 Tags: genesis, bootstrap, column, widget, dynamik
 Requires at least: 3.6
-Tested up to: 4.3
-Stable tag: 4.3
+Tested up to: 4.4
+Stable tag: 4.4
 
 Adds Genesis column classes to widgets.
 

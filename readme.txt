@@ -30,7 +30,7 @@ Or search for "Genesis Widget Column Classes" via your plugins menu.
 
 = 1.1.1 =
 
-*	Fix constructor for PHP7
+*	Fix: constructor for PHP7
 
 = 1.1 =
 

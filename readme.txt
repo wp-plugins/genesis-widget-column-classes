@@ -28,6 +28,10 @@ Or search for "Genesis Widget Column Classes" via your plugins menu.
 
 == Changelog ==
 
+= 1.1.1 =
+
+*	Fix constructor for PHP7
+
 = 1.1 =
 
 *	Make plugin object oriented (OOP)

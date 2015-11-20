@@ -6,7 +6,7 @@
  * Plugin Name:	Genesis Widget Column Classes
  * Description:	Add Genesis (old Bootstrap) column classes to widgets
  * Plugin URI:	https://wordpress.org/plugins/genesis-widget-column-classes/
- * Version:		1.1
+ * Version:		1.1.1
  * Author:		Jory Hogeveen
  * Author URI:	http://www.keraweb.nl
  * Text Domain:	wcc_ignore_genesis_notice
@@ -26,7 +26,7 @@ class WCC_Genesis_Widget_Column_Classes {
 	 * @since  1.1
 	 * @var    String
 	 */
-	protected $version = '1.1';
+	protected $version = '1.1.1';
 
 	/**
 	 * User ignore nag key
@@ -50,7 +50,7 @@ class WCC_Genesis_Widget_Column_Classes {
 	 * @since   1.1
 	 * @return	void
 	 */
-	function WCC_Genesis_Widget_Column_Classes() {
+	function __construct() {
 		
 		// Lets start!
 		add_action( 'init', array( $this, 'init' ) );
